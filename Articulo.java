@@ -5,4 +5,34 @@ public class Articulo {
     private String descripcion;
     private float precio;
 
+    public float getPeso() {
+        return peso;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public float getPrecio() {
+        return precio;
+    }
+
+    public Articulo(float a, String b, String c, float d) {
+        this.peso = a;
+        this.nombre = b;
+        this.descripcion = c;
+        this.precio = d;
+
+    }
+
+    @Override
+    public String toString() {
+        return "Informacion del Articulo: \n"+"Peso: "+this.peso
+                +"kg\n"+"Nombre: "+this.nombre+"\nDescripcion: "
+                +this.descripcion+"\nPrecio: "+this.precio;
+    }
 }

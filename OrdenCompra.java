@@ -21,4 +21,9 @@ public class OrdenCompra {
 
         }
 
+    @Override
+    public String toString() {
+        return "Orden de Compra \n"+"Fecha: "+this.fecha+"\n Estado: "
+                +this.estado;
+    }
 }
