@@ -7,7 +7,7 @@ public class Main {
        //EJEMPLOS DE CLASES
        //CREAMOS UNA FECHA Y SU FORMATO
         Date fecha = new Date();
-        SimpleDateFormat format = new SimpleDateFaormat("dd-MM-yyyy");
+        SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");
 
         //Creamos un cliente
         Cliente cliente1 = new Cliente("Elsa Patito", "2121");
@@ -63,6 +63,11 @@ public class Main {
         DetalleCompra DetalleRefrigeradores = new DetalleCompra(XboxStation5, 2);
 
         OrdenCompra Orden2 = new OrdenCompra(cliente2, fecha, "No pagado");
+
+
+
+
+
 
 
 
