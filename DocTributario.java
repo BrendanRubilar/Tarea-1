@@ -12,6 +12,10 @@ public class DocTributario {
         this.fecha = fecha;
     }
 
+    public DocTributario() {
+
+    }
+
     @Override
     public String toString() {
         return "Documento Tributario: \n"+"Numero documento: "+this.numero

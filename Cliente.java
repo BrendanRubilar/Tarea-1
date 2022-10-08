@@ -8,6 +8,14 @@ public class Cliente {
         this.rut = rut;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getRut() {
+        return rut;
+    }
+
     @Override
     public String toString() {
         return "Datos del cliente \n"+"Nombre: "+this.name+"\nRut: "
