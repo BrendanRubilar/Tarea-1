@@ -3,5 +3,5 @@ Tarea 1 Programación 2 - Java
 
 INTEGRANTES:
 
-TOMAS CID
-BRENDAN RUBILAR
+Tomás Agustín Cid Muñoz
+Brendan Scott William Rubilar Vivanco
