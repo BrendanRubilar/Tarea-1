@@ -1,6 +1,11 @@
-//Prueba de commit
-public class Tarjeta extends Pago{
+public class Tarjeta extends Pago {
 
+    /*
+     * AL pagar con tarjeta se entiende que se pagara la cantidad exacta del monto o
+     * menos,
+     * desde esta clase se controla la variable deuda de la orden a la que se
+     * pagara.
+     */
     private String tipo;
     private String numTransaccion;
 
@@ -9,10 +14,10 @@ public class Tarjeta extends Pago{
         this.numTransaccion = numTransaccion;
     }
 
-    public void PagarConTarjeta(float Dinero, OrdenCompra orden){
-        if(orden.getDeuda()>= Dinero ){
+    public void PagarConTarjeta(float Dinero, OrdenCompra orden) {
+        if (orden.getDeuda() >= Dinero) {
             orden.setDeuda(orden.getDeuda() - Dinero);
-        }else{
+        } else {
             orden.setDeuda(0);
         }
     }
