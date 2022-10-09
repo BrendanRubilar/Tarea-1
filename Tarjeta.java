@@ -1,3 +1,4 @@
+//Prueba de commit
 public class Tarjeta extends Pago{
 
     private String tipo;
